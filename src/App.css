@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*ville*/
+.flexi{
+  display: flex !important;  
+  flex-wrap: wrap !important;
+}
+.image{
+  height: 50px;
+  border-radius: 20%;
+}
+ .back{
+   background-image: url('https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1200');
+   height: 25rem !important;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 20px;
+ }
+ .bac{
+   padding-left: 10%;
+   padding-top: 7%;
+ }
+ .bac h1{
+   color: white;
+   font-size: 3rem;
+   font-family: sans-serif !important;
+ }
+ .bac p{
+  color: white;
+  font-size: 1.2rem;
+  font-family: sans-serif !important;
+}
+.bac button{
+  color:black;
+  font-size: 1.2rem;
+  font-family: sans-serif !important;
+  background-color: white;
+  border-radius: 10%;
+  padding: 10px;
+}
+ .footer{
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr 2fr;
+   background-color: rgba(245, 245, 245, 0.959);
+   margin-top: 20px;
+   padding: 20px;
+ }
+ .footer li{
+   list-style: none;
+   line-height: 1.8rem !important;
+ }
+ .footer li a{
+  text-decoration: none;
+  color: gray;
+}
+.footer li a:hover{
+  color: black !important;
+}
+.footer p{
+  color: black !important;
+  font-size: 15px ;
+  margin-bottom: 1px;
+}
+.footer a{
+ text-align: center;
+}
