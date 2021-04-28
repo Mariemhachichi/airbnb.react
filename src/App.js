@@ -37,9 +37,11 @@ function App() {
 
     <div className="fond">
     <div className="fon">
-    <h1>En pleine nature</h1>
+      <section>
+      <h1>En pleine nature</h1>
     <p>Favoris sélectionnés par Airbnb.</p>
     <Button className="bton" variant="primary">Trouver l'inspiration</Button>
+      </section>
     </div>
     </div>
 
