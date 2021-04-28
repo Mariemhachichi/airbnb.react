@@ -34,6 +34,15 @@ const Desc =[
 function App() {
   return (
     <div >
+
+    <div className="fond">
+    <div className="fon">
+    <h1>En pleine nature</h1>
+    <p>Favoris sélectionnés par Airbnb.</p>
+    <Button className="bton" variant="primary">Trouver l'inspiration</Button>
+    </div>
+    </div>
+
       <div>
       <h1>Explorez les environs</h1>
       <Images child1={ville} />
